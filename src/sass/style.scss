@@ -1,8 +1,15 @@
+
+
+
 @import 'blocks/promo';
-@import 'base/mixins';
 @import 'blocks/masterclass';
 @import 'blocks/reviews';
 @import 'blocks/footer';
+@import 'blocks/form';
+
+@import 'base/mixins';
+@import 'base/media';
+
 
 .container{
     max-width: 1150px;

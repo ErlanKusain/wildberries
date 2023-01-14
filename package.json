@@ -9,6 +9,7 @@
     "sass": "^1.55.0"
   },
   "dependencies": {
-    "gulp-sass": "^5.1.0"
+    "gulp-sass": "^5.1.0",
+    "normalize.css": "^8.0.1"
   }
 }

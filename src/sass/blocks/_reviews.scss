@@ -35,6 +35,9 @@
     &__background{
         &-first{
             z-index: -1;
+            img{
+                width: 100%;
+            }
         }
         &-second{
             display: block;
@@ -47,6 +50,7 @@
         &-thirdy{
             z-index: -1;
             img{
+                width: 100%;
                 transform: rotate(180deg); 
             }
         }
