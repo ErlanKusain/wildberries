@@ -1,18 +1,5 @@
-
-
-
-@import 'blocks/promo';
-@import 'blocks/masterclass';
-@import 'blocks/reviews';
-@import 'blocks/footer';
-@import 'blocks/form';
-
-@import 'base/mixins';
-@import 'base/media';
-
-
 .container{
-    max-width: 1150px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -25,3 +12,13 @@
 *{
     font-family: 'Montserrat', 'Bodoni Moda', sans-serif;
 }
+
+
+@import 'blocks/promo';
+@import 'blocks/masterclass';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/form';
+
+@import 'base/mixins';
+@import 'base/media';

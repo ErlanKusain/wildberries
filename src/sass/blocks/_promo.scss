@@ -1,9 +1,11 @@
 .promo{
-    position: relative;
     background-color: #171717;
 
     height: 100vh;
     overflow: hidden;
+    &__wrapper{
+        position: relative;
+    }
     &-arrow{
         position: absolute;
         bottom: 50px;
@@ -27,19 +29,20 @@
         }
         &-second{
             position: absolute;
-            top: -90px;
-            right: -90px;
+            top: -40%;
+            left: 260px;
 
             z-index: 2;
 
         }
         &-img{
             position: absolute;
-            top: 140px;
-            right: -60px;
+            top: 30px;
+            right: -130px;
+            width: 730px;
+            height: 860px;
+
             z-index: 3;
-            width: 640px;
-            height: 760px;
             img{
                 width: 100%;
                 height: 100%;
@@ -51,7 +54,6 @@
         &-title{
             position: absolute;
             top: 30%;
-            left: 10%;
 
             font-size: 61px;
             font-weight: 700;
@@ -64,8 +66,7 @@
         }
         &-button{
             position: absolute;
-            left: 10%;
-            top: calc(55% + 40px);
+            top: calc(80% + 20px);
 
             width: 360px;
             height: 70px;
@@ -90,8 +91,8 @@
             column-gap: 25px;
     
             position: absolute;
-            top: calc(65% + 70px);
-            left: 10%;
+            top: calc(85% + 90px);
+
             img{
                 display: block;
                 width: 70px;

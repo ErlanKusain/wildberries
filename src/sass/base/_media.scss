@@ -1,172 +1,230 @@
-@media (min-width: 1700px) and (max-width: 1920px) {
-    .promo{
-        &__block{
-            
-            &-title{
-                position: absolute;
-                top: 30%;
-                left: calc(20% - 20px);
-            }
-            &-button{
-                position: absolute;
-                left: calc(20% - 20px);
-                top: calc(55% + 20px);
-            }
-        }
-        &__background{
-            &-img{
-                position: absolute;
-                top: 140px;
-                right: 150px;
-                width: 720px;
-                height: 880px;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            &-second{
-                position: absolute;
-                top: 0;
-                right: 90px;
-            }
-        }
-        &__guide{
-            &-block{
-                position: absolute;
-                top: calc(65% + 40px);
-                left: calc(20% - 20px);
-            }
-        }
+@media (min-width : 1201px) {
+    .container {
+        max-width: 1150px;
     }
 }
 
 
-// 1920
-
-
-
-
-@media (min-width: 1200px) and (max-width: 1439px) {
-    .promo{
-        &__block{
-            
-            &-title{
-                position: absolute;
-                top: 30%;
-                left: 10%;
-
-                font-size: 48px;
-            }
-            &-button{
-                position: absolute;
-                left: 10%;
-                top: calc(50% + 25px);
-
-                width: 310px;
-                height: 60px;
-            }
+@media(max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        &__block-title {
+            position: absolute;
+            top: 30%;
+            left: 35px;
+            font-size: 45px;
         }
-        &__background{
-            &-img{
-                position: absolute;
-                top: 100px;
-                right: -20px;
-                width: 670px;
-                height: 800px;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            &-second{
-                position: absolute;
-                top: 0;
-                right: -140px;
-            }
+        &__block-button {
+            position: absolute;
+            top: calc(69% + 20px);
+            left: 35px;
+            width: 255px;
+            height: 61px;
+            font-size: 16px;
         }
-        &__guide{
-            &-block{
-                position: absolute;
-                top: calc(55% + 70px);
-                left: 10%;
-                img{
-                    width: 60px;
-                    height: 70px;
-                }
-            }
-            &-descr{
-                font-size: 15px;
-            }
+        &__background-main{
+            // font-size: 320px;
         }
-        &-arrow{
-            display: none;
+        &__background-second {
+            position: absolute;
+            top: -45%;
+            left: 175px;
         }
+        &__background-img {
+            position: absolute;
+            top: 30px;
+            right: -190px;
+        }
+        &__guide-block {
+            position: absolute;
+            top: calc(71% + 90px);
+            left: 40px;
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        &__block-title {
+            position: absolute;
+            top: 30%;
+            left: 35px;
+            font-size: 37px;
+        }
+        &__block-button {
+            position: absolute;
+            top: calc(59% + 20px);
+            left: 35px;
+            width: 195px;
+            height: 50px;
+            font-size: 12px;
+        }
+        &__background-main{
+            // font-size: 320px;
+        }
+        &__background-second {
+            position: absolute;
+            top: -45%;
+            left: 175px;
+        }
+        &__background-img {
+            position: absolute;
+            top: 30px;
+            right: -320px;
+            width: 700px;
+            height: 870px;
+        }
+        &__guide-block {
+            position: absolute;
+            top: calc(55% + 95px);
+            left: 39px;
+            grid-template-columns: 60px 142px;
+            grid-template-rows: 90px;
+            column-gap: 10px;
+            img {
+                width: 53px;
+                height: 59px;
+            }
+
+        }
+        &__guide-img {
+            margin-top: 14px;
+            width: 51px;
+            height: 55px;
+        }
+        &__guide-descr {
+            font-size: 12px;
+        }
+
     }
 }
 
 
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .promo{
-        &__block{
-            
-            &-title{
-                position: absolute;
-                top: 30%;
-                left: 40px;
-
-                font-size: 48px;
-            }
-            &-button{
-                position: absolute;
-                left: 40px;
-                top: calc(50% + 25px);
-
-                width: 310px;
-                height: 60px;
-            }
-        }
-        &__background{
-            &-img{
-                position: absolute;
-                top: 100px;
-                right: -140px;
-                width: 670px;
-                height: 800px;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            &-second{
-                position: absolute;
-                top: 0;
-                right: -190px;
-            }
-        }
-        &__guide{
-            &-block{
-                position: absolute;
-                top: calc(55% + 70px);
-                left: 45px;
-                img{
-                    width: 60px;
-                    height: 70px;
-                }
-            }
-            &-descr{
-                font-size: 15px;
-            }
-        }
-        &-arrow{
-            display: none;
-        }
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
     }
-
-    .masterclass{
-        &-title{
-            font-size: 33px;
+    .promo {
+        &__block-title {
+            position: absolute;
+            top: 30%;
+            left: 5px;
+            font-size: 38px;
         }
+        &__block-button {
+            position: absolute;
+            top: calc(59% + 20px);
+            left: 5px;
+            width: 195px;
+            height: 50px;
+            font-size: 12px;
+        }
+        &__background-main{
+            // font-size: 320px;
+        }
+        &__background-second {
+            position: absolute;
+            top: -20%;
+            left: -130px;
+        }
+        &__background-img {
+            position: absolute;
+            top: 245px;
+            right: -185px;
+            width: 510px;
+            height: 625px;
+        }
+        &__guide-block {
+            position: absolute;
+            top: calc(55% + 95px);
+            left: 10px;
+            grid-template-columns: 60px 142px;
+            grid-template-rows: 90px;
+            column-gap: 10px;
+            img {
+                width: 53px;
+                height: 59px;
+            }
+
+        }
+        &__guide-img {
+            margin-top: 14px;
+            width: 51px;
+            height: 55px;
+        }
+        &__guide-descr {
+            font-size: 12px;
+        }
+
     }
 }
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        &__block-title {
+            position: absolute;
+            top: -11%;
+            left: 20px;
+            font-size: 29px;
+        }
+        &__block-button {
+            position: absolute;
+            top: calc(15% + 20px);
+            left: 20px;
+            width: 195px;
+            height: 50px;
+            font-size: 12px;
+        }
+        &__background-main{
+            // font-size: 320px;
+        }
+        &__background-second {
+            position: absolute;
+            top: -30%;
+            left: -230px;
+        }
+        &__background-img {
+            position: absolute;
+            top: 225px;
+            right: -171px;
+            width: 430px;
+            height: 525px;
+        }
+        &__guide-block {
+            position: absolute;
+            top: calc(10% + 95px);
+            left: 25px;
+            grid-template-columns: 60px 142px;
+            grid-template-rows: 90px;
+            -moz-column-gap: 10px;
+            column-gap: 10px;
+            img {
+                width: 53px;
+                height: 59px;
+            }
+
+        }
+        &__guide-img {
+            margin-top: 14px;
+            width: 51px;
+            height: 55px;
+        }
+        &__guide-descr {
+            font-size: 12px;
+        }
+
+    }
+}
+
+

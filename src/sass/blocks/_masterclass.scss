@@ -6,7 +6,8 @@
         display: grid;
         grid-template-columns: repeat(3,minmax(320px, 400px));
         grid-template-rows: auto;
-        column-gap: 120px;
+        column-gap: 12
+        0px;
     }
     &-title{
         font-size: 39px;
