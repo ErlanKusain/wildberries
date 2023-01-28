@@ -17,17 +17,9 @@
     }
     &-images1{
         position: absolute;
-        left: 1250px;
+        left: 250px;
         z-index: 3;
-        animation: reviews 65s linear infinite;
-        img{
-            height: 500px;
-        }
-    }
-    &-images2{
-        position: absolute;
-        z-index: 3;
-        animation: reviewss 65s linear infinite;
+        animation: reviews 75s linear infinite;
         img{
             height: 500px;
         }
@@ -60,7 +52,7 @@
 
 @keyframes reviews {
     0% {
-        transform: translateX(-10%);
+        transform: translateX(-20%);
     }
 
     100%{
@@ -68,14 +60,6 @@
     }
 }
 
-@keyframes reviewss {
-    0% {
-        transform: translateX(-15%);
-    }
 
-    100%{
-        transform: translateX(-150%);
-    }
-}
 
 
