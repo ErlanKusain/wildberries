@@ -56,6 +56,10 @@
         }
     }
     .reviews {
+        height: 800px;
+        &-title {
+            font-size: 39px;
+        }
         &-images1, &-images2 {
             img {
                 height: 320px;
@@ -66,6 +70,11 @@
         }
         &__background-second {
             height: 210px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            column-gap: 90px;
         }
     }
 }
@@ -144,6 +153,7 @@
         }
     }
     .reviews {
+        height: 600px;
         &-title {
             font-size: 31px;
         }
@@ -157,6 +167,24 @@
         }
         &__background-second {
             height: 210px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(260px,330px));;
+            column-gap: 120px;
+            
+        }
+        &__item {
+            &-descr,&-tel {
+                font-size: 31px;
+            }
+            &-confidencial {
+                a {
+                    font-size: 13px;
+                }
+            }
         }
     }
 
@@ -251,12 +279,31 @@
             height: 210px;
         }
     }
+    .footer {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(260px,330px));;
+            column-gap: 10px;
+            
+        }
+        &__item {
+            &-descr,&-tel {
+                font-size: 25px;
+            }
+            &-confidencial {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
 }
 
 
 @media (max-width: 576px) {
     .container {
         width: 100%;
+
     }
     .promo {
         &__block-title {
@@ -314,8 +361,9 @@
     }
     .masterclass {
         height: 550px;
+        padding-bottom: 100px;
         &__wrapper {
-            grid-template-columns: repeat(2,140px);
+            grid-template-columns: repeat(2,130px);
             grid-template-rows: auto;
             column-gap: 30px;
             row-gap: 30px;
@@ -337,6 +385,54 @@
     }
     .reviews {
         display: none;
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 0.8px solid gray;
+
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1,minmax(260px,330px));;
+            column-gap: 10px;
+            padding-left: 55px;
+            justify-content: flex-end;
+            
+        }
+        &__item {
+            &-descr,&-tel {
+                font-size: 23px;
+            }
+            &-confidencial {
+                a {
+                    font-size: 13px;
+                }
+            }
+            &-img{
+                img {
+                    width: 90px;
+                    height: 80px;
+                }
+            }
+            &-rights {
+                margin-top: 15px;
+            }
+            &-company {
+                font-size: 15px;
+            }
+            &-logo {
+                grid-template-columns: 80px 125px;
+                column-gap: 22px;
+            }
+            &-second {
+                row-gap: 5px;
+                justify-self: start;
+            }
+            &-thirdy {
+                grid-template-rows: repeat(2,minmax(20px,45px));
+                grid-template-columns: 260px;
+            }
+        }
     }
 }
 

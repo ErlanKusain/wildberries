@@ -1,5 +1,5 @@
 .footer{
-    height: 300px;
+    min-height: 300px;
     background-color: #1f1f1f;
     &__wrapper{
         display: grid;
@@ -60,6 +60,7 @@
             font-weight: 900;
             line-height: 1.6;
             color: #ffffff;
+            text-decoration: none;
         }
 
         &-social{
